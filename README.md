@@ -4,4 +4,4 @@
 
 <a href="demo/index.html">intro to html</a>
 <hr>
-<a href="">idk css</a>
+<a href="idk/index.html">idk css</a>
