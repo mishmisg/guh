@@ -1,0 +1,40 @@
+img {
+    display: block;
+    width: 400px;
+    margin: 20px auto ;
+    
+}
+h1, h2, h3, h4, h5, h6, nav, p, footer, ul, a {
+    font-family:sans-serif;
+    width: 1350px;
+    margin: 20px auto;
+    color: rgb(66, 8, 35);
+}
+h1, h2, a {
+    text-align: center;
+}
+.imgcontainer{
+    float: left;
+}
+div{
+    line-break: strict;
+}
+
+#container {
+    background-color: rgb(255, 237, 250);
+    width: 1400px;
+    margin: 20px auto;
+    border: 20px solid rgb(247, 136, 197);
+}
+
+nav{
+    text-align: center;
+    margin: 20px;
+}
+
+nav a{
+    font-size: 20px;
+    color: rgb(66, 8, 35);
+}
+
+hr{color: rgba(240, 248, 255, 0);}
