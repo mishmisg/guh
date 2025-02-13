@@ -5,3 +5,5 @@
 <a href="demo/index.html" target="_blank">intro to html</a>
 <hr>
 <a href="idk/index.html" target="_blank">idk css</a>
+<hr>
+<a href="idk copy/index.html" target="_blank">advanecd css</a>
