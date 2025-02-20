@@ -1,0 +1,110 @@
+img {
+    width: 600px;
+    height: 400px;
+    margin: auto ;
+    display: inline-block;
+    align-content:  center;
+    border-radius: 30px;
+    object-fit: cover;
+    overflow: hidden;
+}
+#toplogo {
+    height: 200px;
+    width: auto;
+    object-fit:fill;
+    overflow:auto;
+}
+h1, h2, h3, h4, h5, h6, nav, p, footer, ul, a {
+    font-family:sans-serif;
+    width: 90%;
+    margin: 20px auto;
+    color: rgb(66, 8, 35);
+}
+h1, h2, a {
+    text-align: center;
+}
+.imgcontainer{
+    float: left;
+}
+div{
+    line-break: strict;
+    text-align: center;
+}
+
+#container {
+    background-color: rgb(255, 237, 250);
+    width: 75%;
+    margin: 20px auto;
+    border: 20px solid rgb(247, 136, 197);
+    border-radius: 30px;
+}
+
+.char {
+    font-weight: bold;
+    background-color: rgb(255, 255,255);
+    padding: 10px 10px 10px 10px;
+    width:fit-content;
+    border-radius: 50px;
+    margin: 30px auto;
+    font-size: 30px;
+}
+
+#foot {
+    font-style: italic;
+}
+
+#cite {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.autow {
+    height: 400px;
+    width: auto;
+    object-fit:fill;
+    overflow:auto;
+}
+
+nav{
+    text-align: center;
+    background-color:rgb(247, 136, 197);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    font-size:  30px;
+    font-weight:bold;
+    text-decoration:  none;
+    margin: 0 40px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 237, 250);
+    border-radius: 10px;
+}
+
+hr{color: rgba(240, 248, 255, 0);}
+
+.meow {
+    padding: 20px 20px 20px 20px;
+}
+
+.group {
+    font-size: 30px;
+}
+
+.wtf {
+    display:flex;
+    width: 90%;
+    margin: auto;
+}

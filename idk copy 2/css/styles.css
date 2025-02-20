@@ -1,0 +1,256 @@
+/*aweosme comment*/
+
+body {
+    background-color: #A9ECFF;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: auto ;
+    display: inline-block;
+    align-content:  center;
+    border-radius: 30px;
+    object-fit: cover;
+    overflow: hidden;
+}
+div{
+    line-break: strict;
+    text-align: center;
+}
+#container {
+    background-color: #E4F9FF;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid #0059AC;
+}
+#toplogo {
+    height: auto;
+    width: 100%;
+    object-fit:fill;
+    overflow:auto;
+    margin:20px auto;
+}
+h1, h2, h3, h4, h5, h6, nav, p, footer, ul, a {
+    font-family:sans-serif;
+    width: 90%;
+    margin: 20px auto;
+    color: #002B54;
+}
+nav a:hover {
+    background-color: #002B54;
+    color: #FF7F00;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: #002B54;
+    color:#FF7F00;
+    border:20px #002B54;
+    border-radius: 30px;
+    padding:5px;
+    margin-top: 20px;
+}
+
+hr{color: rgba(240, 248, 255, 0);}
+
+.char {
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    width:fit-content;
+    border-radius: 50px;
+    margin: 30px auto;
+    font-size: 30px;
+}
+#foot {
+    font-style: italic;
+}
+
+#cite {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.meow {
+    padding: 20px 20px 20px 20px;
+}
+
+.group {
+    font-size: 30px;
+}
+
+
+/*mobile im exploding*/
+
+@media (min-width: 320px) {
+    nav {
+        text-align: center;
+        background-color: #0059AC;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+    
+    nav li a {
+        color:#E4F9FF;
+        display:block;
+        font-size:  24px;
+        font-weight:bold;
+        text-decoration:  none;
+        margin-top : 24px;
+        margin-left : 24px;
+        margin-right : 24px;
+        line-height: 24px;
+    }
+    
+    nav a:hover {
+        background-color: #002B54;
+        color: #FF7F00;
+        border: 20px #002B54;
+    }
+
+    .autow {
+        height: 100%;
+        width: 100%;
+        object-fit:fill;
+        overflow:auto;
+    }
+    main {
+        padding: 20px;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        text-align: center;
+    }
+    .wtf {
+        display:block;
+        width: 90%;
+        margin: auto;
+    }
+
+}
+/*tablet style*/
+
+@media (min-width: 768px){
+    nav li {
+        display:inline-block
+    }
+    nav li a {
+        width: 150px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .autow {
+        height: 40%;
+        width: 75%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit:fill;
+        overflow:auto;
+    }
+    #toplogo {
+        height: auto;
+        width: 50%;
+        object-fit:fill;
+        overflow:auto;
+        margin:20px auto;
+    }
+    nav {
+        text-align: center;
+        background-color: #0059AC;
+        margin-top: 10px;
+        padding: 5px;
+        border: 20px solid #0059AC;
+        border-radius: 30px;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+    
+    nav li a {
+        color:#E4F9FF;
+        display:block;
+        font-size:  24px;
+        font-weight:bold;
+        text-decoration:  none;
+        margin-top : 24px;
+        margin-left : 24px;
+        margin-right : 24px;
+        line-height: 24px;
+    }
+    
+    nav a:hover {
+        background-color: #002B54;
+        color: #FF7F00;
+        border: 20px #002B54;
+    }
+
+}
+/*desktop aidnioawdoaoiwdjioawdioaiowdioawsiodaiowiodawidawdioaifnkjbnjkdrujgefuiweuiquifwiofweio/wfeioweiowefioweiof*/
+@media (min-width: 1024px) {
+    #toplogo {
+        height: 25%;
+        width: 35%;
+        object-fit:fill;
+        overflow:auto;
+        margin:20px auto;
+    }
+    .autow {
+        height: 40%;
+        width: 40%;
+        object-fit:fill;
+        overflow:auto;
+    }
+    #container {
+        background-color: #E4F9FF;
+        width: 75%;
+        margin: 5% auto;
+        border: 20px solid #0059AC;
+        border-radius: 30px;
+    }
+    nav li a {
+        margin-top : 5px;
+    }
+    nav {
+        padding: 0px;
+    }
+    img {
+        width: 600px;
+        height: 400px;
+        margin: auto ;
+        display: inline-block;
+        align-content:  center;
+        border-radius: 30px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .multi_col {
+        display: flex;
+    }
+
+    .col {
+        margin: 20px;
+        padding: 20px;
+        border: 10px solid #002B54;
+    }
+    .wtf {
+        display:flex;
+        width: 90%;
+        margin: auto;
+    }
+}
