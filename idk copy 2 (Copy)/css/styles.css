@@ -138,7 +138,10 @@ hr{color: rgba(240, 248, 255, 0);}
         color: #d7df3e;
         border: 20px #e00d74;
     }
-
+    iframe {
+        width: 95%;
+        height: 400px;
+    }
     .autow {
         height: 100%;
         width: 100%;
@@ -186,6 +189,9 @@ hr{color: rgba(240, 248, 255, 0);}
         overflow:auto;
         margin:20px auto;
     }
+    .ep{
+        display:flex;
+    }
     nav {
         text-align: center;
         background-color: #f277b3;
@@ -230,6 +236,10 @@ hr{color: rgba(240, 248, 255, 0);}
         object-fit:fill;
         overflow:auto;
         margin:20px auto;
+    }
+    iframe {
+        width: 90%;
+        height: 700px;
     }
     .autow {
         height: 40%;
