@@ -9,3 +9,5 @@
 <a href="idk copy/index.html" target="_blank">advanecd css</a>
 <hr>
 <a href="idk copy 2/index.html" target="_blank">OEDFJOEPFKAWOPDOKWAWGRRRPSDASCMIWOANDOAJGRRRRRWDPGRRROKAWSDOPLA,SPC,AWPMCFEDOFKPEOKFPQOA;SX;ASFOCMJQA[PFQ[As,; NO</a>
+<hr>
+<a href="idk copy 2 (Copy)/index.html" target="_blank">zzzzzzzzz</a>
